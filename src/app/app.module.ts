@@ -4,10 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent }  from './app.component';
 import { Newpage } from './newpage';
 
-import { Fuck } from './route';
+import { AppRouter } from './route';
 
 @NgModule({
-  imports:      [ BrowserModule,Fuck ],
+  imports:      [ BrowserModule,AppRouter ],
   declarations: [ AppComponent,Newpage ],
   bootstrap:    [ AppComponent ]
 })

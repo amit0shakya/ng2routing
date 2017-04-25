@@ -1,8 +1,17 @@
-import { Component } from '@angular/core';
+import { Component ,OnInit} from '@angular/core';
 
 @Component({
   selector: 'new-page',
   template: `new page data here`
 })
 
-export class Newpage  {  }
+export class Newpage  {  
+
+    constructor(){
+        alert("new page")
+    }
+    
+    ngOnInit(){
+        alert("new page")
+    }
+}
